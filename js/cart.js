@@ -25,17 +25,18 @@ function displayCart() {
             <img src="${item.image}" alt="${item.name}">
             <div class="car-text-text">
             <p class="car-text-text-p">Дверной Замок Golden Soft для офиса</p>
+            <br/>
             <p>+ Подарок: <span>“Приложение к замкам Golden Service”</span></p>
             </div>
 
             </div>
-            <div>
+            <div class="Itogo">
             <p>Итого:  <span>${item.newPrice} ₽</span></p>
 
             </div>
-            <button>Оформить заказ</button>
+            <button class="oformit-btn">Оформить заказ</button>
             </div>
-                <button class="remove-btn" data-index="${index}">O'chirish</button>
+        <div class="remove-btn" data-index="${index}"><img src="./img/delete.svg" alt="delete"> Удалить</div>
             </div>
         `;
     korzinContainer.appendChild(section);
